@@ -33,16 +33,14 @@ To run the application locally, follow these steps:
   
 2. Install dependencies:
 
-```bash
-cd your-repo
-npm install
-```
+   ```bash
+   cd your-repo
+   npm install```
 
 3. Start the development server:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev```
 
 4. Visit http://localhost:3000 in your browser to view the application.
 
