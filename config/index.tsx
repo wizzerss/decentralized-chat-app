@@ -4,7 +4,7 @@ import { cookieStorage, createStorage } from 'wagmi'
 import { mainnet, sepolia } from 'wagmi/chains'
 
 
-export const projectId = 'c0f436d9c51b354504fd5cbb86186c5a'
+export const projectId = ProjectId;
 
 if (!projectId) throw new Error('Project ID is not defined')
 
