@@ -29,18 +29,18 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git```
+   git clone https://github.com/your-username/your-repo.git
   
 2. Install dependencies:
 
    ```bash
    cd your-repo
-   npm install```
+   npm install
 
 3. Start the development server:
 
    ```bash
-   npm run dev```
+   npm run dev
 
 4. Visit http://localhost:3000 in your browser to view the application.
 
