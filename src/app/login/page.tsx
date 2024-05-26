@@ -23,7 +23,7 @@ const User=()=>{
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const { address, isConnecting, isDisconnected } = useAccount();
-  const contractAddress = "YOUR CONTRACT ADDRESS";
+  const contractAddress = ContractAddress;
 
   const { data, isError, isLoading } = useReadContract({
   address: contractAddress,
