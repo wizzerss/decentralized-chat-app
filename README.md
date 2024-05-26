@@ -48,7 +48,7 @@ To run the application locally, follow these steps:
 
 1. Connect your MetaMask wallet to enter the chat.
 2. Choose a username and submit.
-3. Join a chat room or create a new one.
+3. Join the chat room 
 4. Start sending and receiving messages with other users.
 
 # Contributing
