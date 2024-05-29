@@ -38,10 +38,12 @@ const Home = () => {
   }, [allChats]);
 
   useEffect(() => {
-    if (userData) {
-      setUsername(userData);
-    }
-  }, [userData]);
+  if (userData && typeof userData.username === 'string') {
+    setUsername(userData.username);
+  } else {
+    console.error('userData does not contain a valid username', userData);
+  }
+}, [userData]);
 
   useWatchContractEvent({
     address: contractAddress,
