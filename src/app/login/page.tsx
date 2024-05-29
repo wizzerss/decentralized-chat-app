@@ -23,7 +23,7 @@ const User=()=>{
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const { address, isConnecting, isDisconnected } = useAccount();
-  const contractAddress = process.env.ContractAddress;
+  const contractAddress = process.env.ContractAddress as `0x${string}` | undefined;
 
   const { data, isError, isLoading } = useReadContract({
   address: contractAddress,
