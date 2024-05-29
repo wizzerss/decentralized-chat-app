@@ -13,7 +13,7 @@ const Home = () => {
   
   const router = useRouter();
   const { disconnect } = useDisconnect();
-  const contractAddress = ContractAddress;
+  const contractAddress = process.env.ContractAddress;
 
   const { data: allChats, isError: isReadError, isLoading: isReadLoading } = useReadContract({
     address: contractAddress,
