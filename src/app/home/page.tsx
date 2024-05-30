@@ -6,6 +6,10 @@ import ContractABI from '../../../abi.json';
 import Layout from './layout';
 
 const Home = () => {
+  interface UserData {
+  username: string;
+  // Add other properties if necessary
+}
   const [chat, setChat] = useState('');
   const [username, setUsername] = useState('');
   const [name, setName] = useState('');
