@@ -6,10 +6,7 @@ import ContractABI from '../../../abi.json';
 import Layout from './layout';
 
 const Home = () => {
-  interface UserData {
-  username: string;
-  // Add other properties if necessary
-}
+  
   const [chat, setChat] = useState('');
   const [username, setUsername] = useState('');
   const [name, setName] = useState('');
@@ -42,8 +39,8 @@ const Home = () => {
   }, [allChats]);
 
   useEffect(() => {
-  if (userData && typeof userData.username === 'string') {
-    setUsername(userData.username);
+  if (userData) {
+    setUsername(userData);
   } else {
     console.error('userData does not contain a valid username', userData);
   }
